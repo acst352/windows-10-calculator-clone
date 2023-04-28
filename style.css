@@ -12,35 +12,23 @@ body {
   background: #ffffff;
 }
 
-.original-img {
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  float: left;
-  min-width: 80vh;
-  min-height: 100vh;
-}
-
-.calculator-grid {
+.calculator {
   display: grid;
   align-content: center;
-  min-width: 100vh;
-  min-height: 100vh;
-  grid-template-columns: repeat(4, 130px);
-  grid-template-rows: minmax(120px, auto) repeat(5, 130px);
+  min-width: 100%;
+  min-height: 100%;
+  grid-template-columns: repeat(4, 120px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
-.calculator-grid > button {
+.calculator > button {
   cursor: pointer;
   font-size: 1.5rem;
   border: 1px solid #202020;
-  width: 100%;
-  height: 100%;
-  border-radius: 5%;
   outline: none;
 }
 
-.calculator-grid > button:hover {
+.calculator > button:hover {
   background-color: #202020;
 }
 
@@ -52,10 +40,18 @@ body {
 .equals {
   background-color: #76b9ec;
   grid-column: span 2;
+  display: grid;
+  align-content: center;
+  max-width: 240px;
+  min-height: 100px;
+  grid-template-columns: repeat(1, 240px);
+  position: absolute;
+  left: 240px;
+  top: 520px;
 }
 
-.equals > button:hover {
-  background-color: #598bb1;
+.equals:hover {
+  background-color: #6096bf;
 }
 
 .all-clear {

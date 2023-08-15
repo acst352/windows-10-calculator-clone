@@ -50,8 +50,8 @@ body {
   top: 520px;
 }
 
-.equals:hover {
-  background-color: #3b3b3b;
+.calculator > .equals:hover {
+  background-color: #76b9eced;
 }
 
 .all-clear {

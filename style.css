@@ -42,7 +42,7 @@
 }
 
 .equals {
-  background-color: #76b9ec;
+  background-color: #76b9eced;
   grid-column: span 2;
   display: grid;
   align-content: center;
@@ -54,7 +54,7 @@
 }
 
 .calculator > .equals:hover {
-  background-color: #76b9eced;
+  background-color: #76b9ec; 
 }
 
 .all-clear {

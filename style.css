@@ -29,12 +29,12 @@ body {
 }
 
 .calculator > button:hover {
-  background-color: #202020;
+  background-color: #3b3b3b;
 }
 
 .buttons {
   color: #ffff;
-  background-color: #3b3b3b;
+  background-color: #323232;
 }
 
 .equals {
@@ -51,17 +51,17 @@ body {
 }
 
 .equals:hover {
-  background-color: #6096bf;
+  background-color: #3b3b3b;
 }
 
 .all-clear {
   color: #ffff;
-  background-color: #3b3b3b;
+  background-color: #323232;
   grid-column: span 2;
 }
 
 .all-clear > button:hover {
-  background-color: #76b9ec;
+  background-color: #3b3b3b;
 }
 
 .output {

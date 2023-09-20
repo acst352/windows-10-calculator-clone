@@ -6,13 +6,36 @@
   font-weight: normal;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   color: aliceblue;
+  background-color: #202020;
   outline: black solid 2px;
   position: relative;
   width: 480px;
   height: 700px;
   margin: 10px;
+}
+
+.title-bar {
+  background-color: #202020;
+}
+
+.icon {
+  width: 0.6cm;
+  margin-top: 6px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.title {
+  display: inline;
+  border: 1px;
 }
 
 .calculator {
